@@ -1,0 +1,58 @@
+<link rel="import" href="polymer/polymer.html">
+
+<polymer-element name="main-screen" attributes="menuTitle mainTitle">
+
+  <template>
+    <link rel="stylesheet" href="main-screen.css">
+    <core-scaffold>
+
+      <core-header-panel navigation flex>
+        <core-toolbar ><img src="../../img/logo-tstc.gif" height="42" width="42"/>
+          <span>{{menuTitle}}</span>
+        </core-toolbar >
+        <core-menu on-core-select="{{selectAction}}">
+          <!-- num is personnalized attribute -->
+          <core-item num="0" label="Inicio" icon="account-circle"></core-item>
+          <core-item num="1" label="Estudios" icon="settings"></core-item>
+          <core-item num="2" label="Experiencia" icon="settings"></core-item>
+          <core-item num="2" label="Blog" icon="settings"></core-item>
+          <core-item num="2" label="Contacto" icon="settings"></core-item>
+        </core-menu>
+      </core-header-panel>
+
+      <span tool>
+        {{mainTitle}}
+        <paper-shadow z="1"></paper-shadow>
+      </span>
+
+      <div fit class="content">
+        
+        <core-pages id="pages" selected="0">
+          <div><H1>You have selected "Inicio"</h1>
+		<img src="caca"/>
+		<p> Blalbla bla bla</p>
+		<p> Un <a href="kmd">enlace</a></p>
+	</div>
+          <div>You have selected "Item 2"</div>
+          <div>You have selected "Contacto"</div>
+        </core-pages>
+      </div>
+
+    </core-scaffold>
+  </template>
+
+  <script>
+    Polymer("main-screen", {
+      ready: function() {
+        this.pages = this.$.pages;
+      },
+      selectAction: function (e, detail) {
+        if (detail.isSelected) {
+          var selectedItem = detail.item;
+          this.pages.selected = selectedItem.attributes.num.nodeValue;
+        }
+      }
+    });
+  </script>
+
+</polymer-element>
