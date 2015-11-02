@@ -7,16 +7,16 @@
     <core-scaffold>
 
       <core-header-panel navigation flex>
-        <core-toolbar ><img src="../../img/logo-tstc.gif" height="42" width="42"/>
+        <core-toolbar >
           <span>{{menuTitle}}</span>
         </core-toolbar >
         <core-menu on-core-select="{{selectAction}}">
           <!-- num is personnalized attribute -->
-          <core-item num="0" label="Inicio" icon="account-circle"></core-item>
-          <core-item num="1" label="Estudios" icon="settings"></core-item>
-          <core-item num="2" label="Experiencia" icon="settings"></core-item>
-          <core-item num="2" label="Blog" icon="settings"></core-item>
-          <core-item num="2" label="Contacto" icon="settings"></core-item>
+          <core-item num="0" label="Inicio" icon="home"></core-item>
+          <core-item num="1" label="Estudios" icon="book"></core-item>
+          <core-item num="2" label="Experiencia" icon="work"></core-item>
+          <core-item num="3" label="Enlaces" icon="link"></core-item>
+          <core-item num="4" label="Contacto" icon="mail"></core-item>
         </core-menu>
       </core-header-panel>
 
@@ -28,13 +28,61 @@
       <div fit class="content">
         
         <core-pages id="pages" selected="0">
-          <div><H1>You have selected "Inicio"</h1>
-		<img src="caca"/>
-		<p> Blalbla bla bla</p>
-		<p> Un <a href="kmd">enlace</a></p>
-	</div>
-          <div>You have selected "Item 2"</div>
-          <div>You have selected "Contacto"</div>
+          <div id="inicio">
+
+		    <p>Guillermo Chica Sabariego (Jaén, 1993) es estudiante del último curso del Grado en Ingeniería de Tecnologías de Telecomunicación en la Universidad de Granada (UGR).</p>
+		    <p>Actualmente se encuentra realizando el Trabajo de Fin de Grado titulado <a href="http://dtstc.ugr.es/PFC/proyectos/assigned/pfc_assigned_project_index.php?id=259">"Hypervisors para redes SDN y aplicación en 5G" </a>.</p>
+            <p>También ejerce como Personal Colaborador en el <a href="tstc.ugr.es">Departamento de Teoría de la Señal, Telemática y Comunicaciones (TSTC)</a> de la UGR.</p>
+	    </div>
+        <div id="estudios">
+            <ul>
+            <li>Estudios universitarios:</li>
+                <ul>
+                    <li>Grado en Ingeniería de Tecnologías de Telecomunicación - Universidad de Granada (2011 - actualidad) </li>
+                    <li>Licence Électronique et Télécommunication - Université de Rennes 1, Beca Erasmus (2013 - 2014) </li> 
+                </ul><br>
+            <li>Formación complementaria:</li>
+                <ul>
+                    <li>Programación cliente-servidor en JavaScript, III Edición - Fundación General Universidad de Granada-Empresa</li>
+                    <li>El proceso de búsqueda y recuperación de información: recursos de la Biblioteca Universitaria en Informática y Telecomunicaciones, 5ª Edición - Biblioteca ETSIIT</li>
+                </ul><br>
+            <li>Idiomas: </li>
+                <ul>
+                    <li> Inglés - B1</li>
+                    <li> Francés - B2</li>
+                </ul><br>
+            <li>Conocimientos informáticos: </li>
+                 <ul>
+                    <li>Programación: C, C++, Java, Python, JavaScript, Matlab </li>
+                    <li>Web: HTML, PHP, MySQL, CSS, XML, BootStrap, Polymer, AJAX </li>
+                    <li>Linux: Usuario habitual</li>
+                    
+            </ul>          
+            
+        </div>
+          <div id="experiencia">
+            <ul>
+                <li><h4>Personal colaborador en el Departamento de Teoría de la Señal, Telemática y Telecomunicaciones - UGR </h4>
+                        <h6>Septiembre 2015 - actualidad</h6></li>
+                <ul>
+                    <li><p>Mantenimiento de información del portal web del departamento, recursos físicos y lógicos del departamento.</p></li>
+                    <li><p>Actualización C.V. personal del departamento.</p></li>
+                    <li><p>Configuración e instalación de equipos de usuario. Configuración y mantenimiento de sistemas de laboratorio.</p></li>
+                <ul>
+                    
+                
+            </ul>
+
+        </div>
+
+        <div id="enlaces>
+            <ul>
+                <li><a href="www.linkedin.com/pub/guillermo-chica-sabariego/107/67/241">LinkedIn</a></li>
+
+            </ul>
+
+
+        </div>
         </core-pages>
       </div>
 
