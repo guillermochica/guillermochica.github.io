@@ -33,29 +33,32 @@
 		    <p>Guillermo Chica Sabariego (Jaén, 1993) es estudiante del último curso del Grado en Ingeniería de Tecnologías de Telecomunicación en la Universidad de Granada (UGR).</p>
 		    <p>Actualmente se encuentra realizando el Trabajo de Fin de Grado titulado <a href="http://dtstc.ugr.es/PFC/proyectos/assigned/pfc_assigned_project_index.php?id=259">"Hypervisors para redes SDN y aplicación en 5G" </a>.</p>
             <p>También ejerce como Personal Colaborador en el <a href="tstc.ugr.es">Departamento de Teoría de la Señal, Telemática y Comunicaciones (TSTC)</a> de la UGR.</p>
-	    </div>
+	        <p>Sus principales intereses en el ámbito de las telecomunicaciones son las redes móviles, las redes definidas por software (SDN), la seguridad en redes, la criptografía y el diseño y desarrollo de protocolos y aplicaciones para redes.</p>
+            <p>Fuera del ámbito profesional, es un gran apasionado del cine, la literatura, la música, el arte, los viajes y la naturaleza.</p>
+        </div>
         <div id="estudios">
             <ul>
-            <li>Estudios universitarios:</li>
+            <li><h4>Estudios universitarios:</h4></li>
                 <ul>
-                    <li>Grado en Ingeniería de Tecnologías de Telecomunicación - Universidad de Granada (2011 - actualidad) </li>
+                    <li>Grado en Ingeniería de Tecnologías de Telecomunicación, especialidad en Telemática - Universidad de Granada (2011 - actualidad) </li>
                     <li>Licence Électronique et Télécommunication - Université de Rennes 1, Beca Erasmus (2013 - 2014) </li> 
                 </ul><br>
-            <li>Formación complementaria:</li>
+            <li><h4>Formación complementaria:</h4></li>
                 <ul>
                     <li>Programación cliente-servidor en JavaScript, III Edición - Fundación General Universidad de Granada-Empresa</li>
                     <li>El proceso de búsqueda y recuperación de información: recursos de la Biblioteca Universitaria en Informática y Telecomunicaciones, 5ª Edición - Biblioteca ETSIIT</li>
                 </ul><br>
-            <li>Idiomas: </li>
+            <li><h4>Idiomas:</h4> </li>
                 <ul>
                     <li> Inglés - B1</li>
                     <li> Francés - B2</li>
                 </ul><br>
-            <li>Conocimientos informáticos: </li>
+            <li><h4>Conocimientos informáticos: </h4></li>
                  <ul>
                     <li>Programación: C, C++, Java, Python, JavaScript, Matlab </li>
                     <li>Web: HTML, PHP, MySQL, CSS, XML, BootStrap, Polymer, AJAX </li>
                     <li>Linux: Usuario habitual</li>
+                </ul>
                     
             </ul>          
             
@@ -68,19 +71,56 @@
                     <li><p>Mantenimiento de información del portal web del departamento, recursos físicos y lógicos del departamento.</p></li>
                     <li><p>Actualización C.V. personal del departamento.</p></li>
                     <li><p>Configuración e instalación de equipos de usuario. Configuración y mantenimiento de sistemas de laboratorio.</p></li>
+                </ul>
+
+                <li><h4>Desarrollo del servidor y cliente de una aplicación de mensajería</h4>
+                        <h6>Febrero 2015</h6>
+                        <h6>Realizado para la asignatura Desarrollo de Aplicaciones en red con Ignacio Abadía Tercedor</h6></li>
                 <ul>
+                    <li><a href="https://github.com/guillermochica/Chat">Código</a> en GitHub.</li>
+                </ul>
+                
+                <li><h4>Find The Film - Chrome</h4>
+                    <h6>Enero 2015</h6></li>
+                <ul>
+                    <li>Extensión hecha para Google Chome para encontrar de forma rápida información básica sobre cualquier película.</li><br>
+                    <li><a href="https://github.com/guillermochica/FindTheFilm-Chrome">Código</a> en GitHub.</li>
+                </ul>
+
+                <li><h4>Desarrollo del servidor y cliente de un tablón de anuncios web</h4>
+                    <h6>Noviembre 2014</h6>
+                    <h6>Realizado como proyecto final del curso Porgramación cliente-servidor en JavaScript del CEVUG</h6>
+                <ul>
+                    <li><a href="https://github.com/guillermochica/Tablon-de-anuncios">Código</a> en GitHub.</li><br>
+                    <li><a href="http://tablondeanuncios.herokuapp.com/">Enlace</a> a la aplicación.</li>
+                </ul>
+
+                <li><h4>Get The Tower - Videojuego para navegador</h4>
+                    <h6>Octubre 2014</h6></li>
+                <ul>    
+                    <li><a href="https://github.com/guillermochica/GetTheTower">Código</a> en GitHub.</li>
+                </ul>
                     
                 
             </ul>
 
-        </div>
+          </div>
 
-        <div id="enlaces>
+        <div id="enlaces">
             <ul>
-                <li><a href="www.linkedin.com/pub/guillermo-chica-sabariego/107/67/241">LinkedIn</a></li>
-
+                <li>Perfil profesional de <a href="https://www.linkedin.com/in/gchicasab">LinkedIn</a></li><br>
+                <li>Perfil en <a href="https://github.com/guillermochica">GitHub</a></li><br>
+                <li>Galería de fotos en <a href="https://www.flickr.com/photos/126288028@N05/">Flickr</a></li><br>
+                <li>Blog sobre jazz y cine en <a href="http://jazzycine.tumblr.com/">Tumblr</a></li><br>
+                
             </ul>
 
+        </div>
+        
+        <div id="contacto">
+                <p><b>Correo universitario</b>: guillermochica@ugr.es</p>
+                <p><b>Correo personal</b>: 1bgchica@gmail.com</p>
+            
 
         </div>
         </core-pages>
